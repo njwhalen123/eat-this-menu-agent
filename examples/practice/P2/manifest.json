@@ -1,0 +1,17 @@
+{
+  "restaurant_id": "P2",
+  "display_name": "Saffron & Slate",
+  "fictional": true,
+  "menu_scope": "the Lunch and Dinner menus (the Specials panel is an image)",
+  "captures": [
+    {
+      "capture_id": "P2-C1",
+      "url": "https://saffron-and-slate.example/menus/",
+      "kind": "html",
+      "path": "captures/menus.html",
+      "sha256": "1c8b2b21b35e3f6233872702f643fbdfdfd6d8c8356d6430aaeea4dea169058b",
+      "retrieved_at": "2026-11-25",
+      "role": "menu"
+    }
+  ]
+}

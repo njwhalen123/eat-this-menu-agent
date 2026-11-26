@@ -1,0 +1,242 @@
+{
+  "format": "menu-agent-reference/0",
+  "restaurant_id": "P1",
+  "fictional": true,
+  "built_by": "the practice menus' author (AG chat); a pipeline test, not an accuracy measure",
+  "minutes": null,
+  "menu_scope": "every food section of the dinner menu",
+  "items": [
+    {
+      "section": "Starters",
+      "name": "Smoked Beet Salad",
+      "description": "roasted beets, whipped goat cheese, pistachio, arugula",
+      "price": "13",
+      "ingredients": [
+        "beets",
+        "goat cheese",
+        "pistachio",
+        "arugula"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Starters",
+      "name": "Chowder Cup",
+      "description": "clams, potato, smoked bacon, cream",
+      "price": "9",
+      "ingredients": [
+        "clams",
+        "potato",
+        "smoked bacon",
+        "cream"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Starters",
+      "name": "Crispy Brussels Sprouts",
+      "description": "maple glaze, chili, toasted peanuts. Contains peanuts.",
+      "price": "11",
+      "ingredients": [
+        "maple glaze",
+        "chili",
+        "peanuts"
+      ],
+      "statements": [
+        {
+          "kind": "warning",
+          "text": "Contains peanuts."
+        }
+      ],
+      "dish_type": null
+    },
+    {
+      "section": "Starters",
+      "name": "Oysters on the Half Shell*",
+      "description": "lemon, mignonette",
+      "price": "MP",
+      "ingredients": [
+        "lemon",
+        "mignonette"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Starters",
+      "name": "Soup of the Day",
+      "description": null,
+      "price": "8",
+      "ingredients": [],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Mains",
+      "name": "Tavern Burger",
+      "description": "8 oz beef patty, cheddar, pickles, brioche bun. GF bun available",
+      "price": "18",
+      "ingredients": [
+        "beef patty",
+        "cheddar",
+        "pickles",
+        "brioche bun"
+      ],
+      "statements": [
+        {
+          "kind": "qualifier",
+          "text": "GF bun available"
+        }
+      ],
+      "dish_type": "DT10"
+    },
+    {
+      "section": "Mains",
+      "name": "Pan-Roasted Cod",
+      "description": "lemon butter, capers, fingerling potatoes",
+      "price": "27",
+      "ingredients": [
+        "lemon butter",
+        "capers",
+        "fingerling potatoes"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Mains",
+      "name": "Mushroom Risotto (V)",
+      "description": "arborio rice, wild mushrooms, parmesan, truffle oil",
+      "price": "23",
+      "ingredients": [
+        "arborio rice",
+        "wild mushrooms",
+        "parmesan",
+        "truffle oil"
+      ],
+      "statements": [
+        {
+          "kind": "dietary_label",
+          "text": "(V)"
+        }
+      ],
+      "dish_type": null
+    },
+    {
+      "section": "Mains",
+      "name": "Chicken Caesar",
+      "description": "romaine, parmesan, house Caesar dressing, no croutons",
+      "price": "19",
+      "ingredients": [
+        "romaine",
+        "parmesan",
+        "Caesar dressing"
+      ],
+      "statements": [
+        {
+          "kind": "qualifier",
+          "text": "no croutons"
+        }
+      ],
+      "dish_type": "DT02"
+    },
+    {
+      "section": "Mains",
+      "name": "Stir-Fry Bowl",
+      "description": "seasonal vegetables, jasmine rice, choice of chicken or tofu",
+      "price": "21",
+      "ingredients": [
+        "seasonal vegetables",
+        "jasmine rice"
+      ],
+      "statements": [
+        {
+          "kind": "option",
+          "text": "choice of chicken or tofu"
+        }
+      ],
+      "dish_type": null
+    },
+    {
+      "section": "Mains",
+      "name": "Fish and Chips",
+      "description": "beer-battered haddock, fries, tartar sauce",
+      "price": "22",
+      "ingredients": [
+        "haddock",
+        "fries",
+        "tartar sauce"
+      ],
+      "statements": [],
+      "dish_type": "DT12"
+    },
+    {
+      "section": "Sides",
+      "name": "Fries",
+      "description": null,
+      "price": "6",
+      "ingredients": [],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Sides",
+      "name": "Coleslaw",
+      "description": null,
+      "price": "5",
+      "ingredients": [],
+      "statements": [],
+      "dish_type": "DT30"
+    },
+    {
+      "section": "Sides",
+      "name": "Side Salad",
+      "description": null,
+      "price": "6",
+      "ingredients": [],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Desserts",
+      "name": "Warm Apple Crisp",
+      "description": "oat crumble, vanilla ice cream",
+      "price": "10",
+      "ingredients": [
+        "oat crumble",
+        "vanilla ice cream"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Desserts",
+      "name": "Chocolate Pot de Crème",
+      "description": "dark chocolate, whipped cream. Contains tree nuts (hazelnut).",
+      "price": "10",
+      "ingredients": [
+        "dark chocolate",
+        "whipped cream"
+      ],
+      "statements": [
+        {
+          "kind": "warning",
+          "text": "Contains tree nuts (hazelnut)."
+        }
+      ],
+      "dish_type": null
+    }
+  ],
+  "menu_statements": [
+    "*Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness.",
+    "Please tell your server about any food allergies before ordering."
+  ],
+  "restaurant_facts": {
+    "hours": "Hours: Tue–Sun 5 pm – 10 pm",
+    "address": "12 Harbor Lantern Way, Example City",
+    "phone": "(555) 010-0199"
+  },
+  "problems": []
+}

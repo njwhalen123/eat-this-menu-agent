@@ -1,0 +1,17 @@
+{
+  "restaurant_id": "P4",
+  "display_name": "Tidewater Example Kitchen",
+  "fictional": true,
+  "menu_scope": "the whole dinner menu (PDF)",
+  "captures": [
+    {
+      "capture_id": "P4-C1",
+      "url": "https://tidewater-kitchen.example/dinner.pdf",
+      "kind": "pdf",
+      "path": "captures/dinner.pdf",
+      "sha256": "81ffbc43f4ed79170b6ff8f7ee5ced0ad9295971a2ac0594ef6c89bf3d3c7ad8",
+      "retrieved_at": "2026-11-25",
+      "role": "menu"
+    }
+  ]
+}

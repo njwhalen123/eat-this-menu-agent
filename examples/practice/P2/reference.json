@@ -1,0 +1,182 @@
+{
+  "format": "menu-agent-reference/0",
+  "restaurant_id": "P2",
+  "fictional": true,
+  "built_by": "the practice menus' author (AG chat); a pipeline test, not an accuracy measure",
+  "minutes": null,
+  "menu_scope": "the Lunch and Dinner menus (the Specials panel is an image)",
+  "items": [
+    {
+      "section": "Lunch",
+      "name": "Lamb Kofta Plate",
+      "description": "grilled lamb kofta, saffron rice, cucumber yogurt, pickled onion",
+      "price": "$16",
+      "ingredients": [
+        "lamb kofta",
+        "saffron rice",
+        "cucumber yogurt",
+        "pickled onion"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Lunch",
+      "name": "Falafel Wrap",
+      "description": "chickpea falafel, tahini, tomato, parsley, in a warm pita",
+      "price": "$13",
+      "ingredients": [
+        "chickpea falafel",
+        "tahini",
+        "tomato",
+        "parsley",
+        "pita"
+      ],
+      "statements": [],
+      "dish_type": "DT09"
+    },
+    {
+      "section": "Lunch",
+      "name": "Lentil Soup",
+      "description": "red lentils, cumin, lemon. Vegan.",
+      "price": "$8",
+      "ingredients": [
+        "red lentils",
+        "cumin",
+        "lemon"
+      ],
+      "statements": [
+        {
+          "kind": "dietary_label",
+          "text": "Vegan."
+        }
+      ],
+      "dish_type": null
+    },
+    {
+      "section": "Lunch",
+      "name": "Halloumi Salad",
+      "description": "grilled halloumi, watermelon, mint, sumac",
+      "price": "$14",
+      "ingredients": [
+        "halloumi",
+        "watermelon",
+        "mint",
+        "sumac"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Lunch",
+      "name": "Chicken Shawarma Bowl",
+      "description": "marinated chicken, garlic sauce, turnip pickles, rice",
+      "price": "$15",
+      "ingredients": [
+        "chicken",
+        "garlic sauce",
+        "turnip pickles",
+        "rice"
+      ],
+      "statements": [],
+      "dish_type": "DT20"
+    },
+    {
+      "section": "Dinner",
+      "name": "Lamb Kofta Plate",
+      "description": "grilled lamb kofta, saffron rice, cucumber yogurt, pickled onion",
+      "price": "$24",
+      "ingredients": [
+        "lamb kofta",
+        "saffron rice",
+        "cucumber yogurt",
+        "pickled onion"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Dinner",
+      "name": "Whole Branzino",
+      "description": "charred lemon, herbs, olive oil. Served with the bones in.",
+      "price": "$34",
+      "ingredients": [
+        "lemon",
+        "herbs",
+        "olive oil"
+      ],
+      "statements": [
+        {
+          "kind": "warning",
+          "text": "Served with the bones in."
+        }
+      ],
+      "dish_type": null
+    },
+    {
+      "section": "Dinner",
+      "name": "Hummus Trio",
+      "description": "classic, roasted red pepper, and za'atar hummus with pita. Contains sesame.",
+      "price": "$12",
+      "ingredients": [
+        "hummus",
+        "roasted red pepper",
+        "za'atar",
+        "pita"
+      ],
+      "statements": [
+        {
+          "kind": "warning",
+          "text": "Contains sesame."
+        }
+      ],
+      "dish_type": "DT19"
+    },
+    {
+      "section": "Dinner",
+      "name": "Saffron Chicken",
+      "description": "half chicken, saffron butter, freekeh",
+      "price": "$27",
+      "ingredients": [
+        "chicken",
+        "saffron butter",
+        "freekeh"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Dinner",
+      "name": "Baklava",
+      "description": "phyllo, walnuts, pistachio, honey syrup. Contains wheat and tree nuts.",
+      "price": "$9",
+      "ingredients": [
+        "phyllo",
+        "walnuts",
+        "pistachio",
+        "honey syrup"
+      ],
+      "statements": [
+        {
+          "kind": "warning",
+          "text": "Contains wheat and tree nuts."
+        }
+      ],
+      "dish_type": null
+    }
+  ],
+  "menu_statements": [
+    "Our kitchen handles sesame, tree nuts and wheat; please ask your server about allergens."
+  ],
+  "restaurant_facts": {
+    "hours": "Mon–Sat 11:30 am – 9:30 pm",
+    "address": "88 Slate Row, Example City",
+    "phone": null
+  },
+  "problems": [
+    {
+      "kind": "image_only",
+      "where": "Specials"
+    }
+  ]
+}

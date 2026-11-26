@@ -1,0 +1,44 @@
+{
+  "restaurant_id": "P3",
+  "display_name": "Larkspur Noodle Bar",
+  "fictional": true,
+  "menu_scope": "the Noodles and Small Plates pages (drinks excluded)",
+  "captures": [
+    {
+      "capture_id": "P3-C1",
+      "url": "https://larkspur-noodles.example/menu/",
+      "kind": "html",
+      "path": "captures/index.html",
+      "sha256": "cbd3218c7324e25640e7d838cdc2e130ccf857c2ec0d6f38dc5da139729d9267",
+      "retrieved_at": "2026-11-25",
+      "role": "menu index"
+    },
+    {
+      "capture_id": "P3-C2",
+      "url": "https://larkspur-noodles.example/menu/noodles.html",
+      "kind": "html",
+      "path": "captures/noodles.html",
+      "sha256": "8984674d37579f541e5279bab4989508699104e832ceb90d96feb4f9311ef9fa",
+      "retrieved_at": "2026-11-25",
+      "role": "menu"
+    },
+    {
+      "capture_id": "P3-C3",
+      "url": "https://larkspur-noodles.example/menu/small-plates.html",
+      "kind": "html",
+      "path": "captures/small-plates.html",
+      "sha256": "b8fefa95cc637a9985fb0911876a6764e64cdddc21b2c4e59fa6d369872aadce",
+      "retrieved_at": "2026-11-25",
+      "role": "menu"
+    },
+    {
+      "capture_id": "P3-C4",
+      "url": "https://larkspur-noodles.example/menu/drinks.html",
+      "kind": "html",
+      "path": "captures/drinks.html",
+      "sha256": "ed97acdd60cd95e442058487b1e2302c0ca12900e1de0d4ba96cffde01217762",
+      "retrieved_at": "2026-11-25",
+      "role": "drinks (out of scope)"
+    }
+  ]
+}

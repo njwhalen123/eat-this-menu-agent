@@ -1,0 +1,161 @@
+{
+  "format": "menu-agent-reference/0",
+  "restaurant_id": "P3",
+  "fictional": true,
+  "built_by": "the practice menus' author (AG chat); a pipeline test, not an accuracy measure",
+  "minutes": null,
+  "menu_scope": "the Noodles and Small Plates pages (drinks excluded)",
+  "items": [
+    {
+      "section": "Noodles",
+      "name": "Dan Dan Noodles",
+      "description": "wheat noodles, spicy pork, Sichuan pepper, peanuts",
+      "price": "15",
+      "ingredients": [
+        "wheat noodles",
+        "pork",
+        "Sichuan pepper",
+        "peanuts"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Noodles",
+      "name": "Pad Thai",
+      "description": "rice noodles, egg, tamarind, bean sprouts, crushed peanuts; choice of shrimp or tofu",
+      "price": "16",
+      "ingredients": [
+        "rice noodles",
+        "egg",
+        "tamarind",
+        "bean sprouts",
+        "peanuts"
+      ],
+      "statements": [
+        {
+          "kind": "option",
+          "text": "choice of shrimp or tofu"
+        }
+      ],
+      "dish_type": "DT03"
+    },
+    {
+      "section": "Noodles",
+      "name": "Tonkotsu Ramen",
+      "description": "pork broth, chashu, soft egg, nori, scallion",
+      "price": "18",
+      "ingredients": [
+        "pork broth",
+        "chashu",
+        "egg",
+        "nori",
+        "scallion"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Noodles",
+      "name": "Cold Sesame Noodles (V)",
+      "description": "wheat noodles, sesame sauce, cucumber",
+      "price": "13",
+      "ingredients": [
+        "wheat noodles",
+        "sesame sauce",
+        "cucumber"
+      ],
+      "statements": [
+        {
+          "kind": "dietary_label",
+          "text": "(V)"
+        }
+      ],
+      "dish_type": null
+    },
+    {
+      "section": "Noodles",
+      "name": "Beef Chow Fun",
+      "description": "wide rice noodles, beef, bean sprouts, soy sauce",
+      "price": "17",
+      "ingredients": [
+        "rice noodles",
+        "beef",
+        "bean sprouts",
+        "soy sauce"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "Small Plates",
+      "name": "Pork Gyoza",
+      "description": null,
+      "price": "9",
+      "ingredients": [],
+      "statements": [],
+      "dish_type": "DT24"
+    },
+    {
+      "section": "Small Plates",
+      "name": "Vegetable Spring Rolls (V)",
+      "description": null,
+      "price": "8",
+      "ingredients": [],
+      "statements": [
+        {
+          "kind": "dietary_label",
+          "text": "(V)"
+        }
+      ],
+      "dish_type": null
+    },
+    {
+      "section": "Small Plates",
+      "name": "Shrimp Tempura",
+      "description": null,
+      "price": "12",
+      "ingredients": [],
+      "statements": [],
+      "dish_type": "DT17"
+    },
+    {
+      "section": "Small Plates",
+      "name": "Edamame (V)",
+      "description": null,
+      "price": "6",
+      "ingredients": [],
+      "statements": [
+        {
+          "kind": "dietary_label",
+          "text": "(V)"
+        }
+      ],
+      "dish_type": null
+    },
+    {
+      "section": "Small Plates",
+      "name": "Scallion Pancake",
+      "description": null,
+      "price": "8",
+      "ingredients": [],
+      "statements": [],
+      "dish_type": null
+    }
+  ],
+  "menu_statements": [
+    "Dishes marked (V) are vegetarian.",
+    "Ask us about allergens."
+  ],
+  "restaurant_facts": {
+    "hours": "Daily 11 am – 10 pm",
+    "address": "3 Larkspur Lane, Example City",
+    "phone": null
+  },
+  "problems": [
+    {
+      "kind": "missing_page",
+      "where": "Weekend Brunch"
+    }
+  ]
+}

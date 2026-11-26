@@ -1,0 +1,5 @@
+anthropic>=2.14
+beautifulsoup4>=4.12
+pdfplumber>=0.11
+reportlab>=4.0   # only to rebuild the practice PDF
+pytest>=8
