@@ -1,0 +1,165 @@
+{
+  "format": "menu-agent-reference/0",
+  "restaurant_id": "P4",
+  "fictional": true,
+  "built_by": "the practice menus' author (AG chat); a pipeline test, not an accuracy measure",
+  "minutes": null,
+  "menu_scope": "the whole dinner menu (PDF)",
+  "items": [
+    {
+      "section": "DINNER > RAW BAR",
+      "name": "Littleneck Clams*",
+      "description": null,
+      "price": "3 each",
+      "ingredients": [],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "DINNER > RAW BAR",
+      "name": "Shrimp Cocktail",
+      "description": "poached shrimp, cocktail sauce, lemon",
+      "price": "16",
+      "ingredients": [
+        "shrimp",
+        "cocktail sauce",
+        "lemon"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "DINNER > STARTERS",
+      "name": "Crab Cakes",
+      "description": "lump crab, old bay aioli, frisée",
+      "price": "17",
+      "ingredients": [
+        "crab",
+        "old bay aioli",
+        "frisée"
+      ],
+      "statements": [],
+      "dish_type": "DT16"
+    },
+    {
+      "section": "DINNER > STARTERS",
+      "name": "Clam Chowder",
+      "description": "New England style; contains milk and wheat",
+      "price": "10",
+      "ingredients": [],
+      "statements": [
+        {
+          "kind": "warning",
+          "text": "contains milk and wheat"
+        }
+      ],
+      "dish_type": "DT15"
+    },
+    {
+      "section": "DINNER > STARTERS",
+      "name": "Fried Calamari",
+      "description": "cherry peppers, marinara",
+      "price": "14",
+      "ingredients": [
+        "cherry peppers",
+        "marinara"
+      ],
+      "statements": [],
+      "dish_type": "DT11"
+    },
+    {
+      "section": "DINNER > STARTERS",
+      "name": "Grilled Octopus",
+      "description": "chickpeas, smoked paprika, olive oil, lemon",
+      "price": "18",
+      "ingredients": [
+        "chickpeas",
+        "smoked paprika",
+        "olive oil",
+        "lemon"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "DINNER > MAINS",
+      "name": "Lobster Roll",
+      "description": "chilled lobster, mayonnaise, celery, toasted split-top bun",
+      "price": "32",
+      "ingredients": [
+        "lobster",
+        "mayonnaise",
+        "celery",
+        "split-top bun"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "DINNER > MAINS",
+      "name": "Seared Scallops",
+      "description": "cauliflower purée, brown butter, capers",
+      "price": "34",
+      "ingredients": [
+        "cauliflower purée",
+        "brown butter",
+        "capers"
+      ],
+      "statements": [],
+      "dish_type": null
+    },
+    {
+      "section": "DINNER > MAINS",
+      "name": "Fish Tacos",
+      "description": "fried cod, cabbage slaw, chipotle crema, corn tortillas",
+      "price": "22",
+      "ingredients": [
+        "cod",
+        "cabbage slaw",
+        "chipotle crema",
+        "corn tortillas"
+      ],
+      "statements": [],
+      "dish_type": "DT29"
+    },
+    {
+      "section": "DINNER > MAINS",
+      "name": "Steak Frites",
+      "description": "8 oz hanger steak, herb butter, fries. Gluten-free on request",
+      "price": "36",
+      "ingredients": [
+        "hanger steak",
+        "herb butter",
+        "fries"
+      ],
+      "statements": [
+        {
+          "kind": "qualifier",
+          "text": "Gluten-free on request"
+        }
+      ],
+      "dish_type": null
+    },
+    {
+      "section": "DINNER > DESSERTS",
+      "name": "Blueberry Cobbler",
+      "description": "buttermilk biscuit, vanilla ice cream",
+      "price": "9",
+      "ingredients": [
+        "buttermilk biscuit",
+        "vanilla ice cream"
+      ],
+      "statements": [],
+      "dish_type": null
+    }
+  ],
+  "menu_statements": [
+    "*Consuming raw or undercooked shellfish may increase your risk of foodborne illness."
+  ],
+  "restaurant_facts": {
+    "hours": "Open Wed–Sun, 4 pm – 10 pm",
+    "address": "1 Tidewater Wharf, Example City",
+    "phone": null
+  },
+  "problems": []
+}

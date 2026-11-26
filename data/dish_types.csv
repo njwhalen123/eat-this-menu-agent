@@ -1,0 +1,31 @@
+dish_type_id,name,variations
+DT01,Pizza (American-style),"Margherita, cheese, cheese (base components)"
+DT02,Caesar salad,classic Caesar
+DT03,Pad Thai,pad Thai
+DT04,Thai coconut curry,"green curry, red curry"
+DT05,Thai fried rice,Thai fried rice (khao pad)
+DT06,Teriyaki,teriyaki (sauce-glazed protein)
+DT07,Reuben sandwich,classic corned beef
+DT08,Burrito (Mission-style),Mission-style burrito
+DT09,Falafel,falafel (fritters)
+DT10,Hamburger,"cheeseburger, hamburger"
+DT11,Fried calamari,breaded fried calamari
+DT12,Fish and chips,battered fish and chips
+DT13,Pasta with basil pesto,basil pesto
+DT14,Greek salad (American-style),American-style (with lettuce)
+DT15,New England clam chowder,New England (cream-based)
+DT16,Crab cakes,crab cake
+DT17,Tempura,shrimp and vegetable tempura
+DT18,Chicken parmigiana,chicken parmigiana plate
+DT19,Hummus,classic chickpea-tahini
+DT20,Chicken shawarma,wrap or plate
+DT21,Boston baked beans,classic
+DT22,French onion soup,classic French onion
+DT23,Macaroni and cheese,classic
+DT24,Gyoza (pork dumplings),pork gyoza
+DT25,Eggplant parmigiana,breaded fried eggplant
+DT26,Tom yum soup,tom yum (clear broth)
+DT27,Fettuccine Alfredo,American cream-style Alfredo
+DT28,Shepherd's pie,lamb and/or beef
+DT29,Fish tacos,"battered fish tacos, fish tacos (preparation not captured), grilled or seared fish tacos"
+DT30,Coleslaw (creamy),creamy

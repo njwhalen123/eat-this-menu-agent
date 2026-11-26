@@ -1,0 +1,17 @@
+{
+  "restaurant_id": "P1",
+  "display_name": "Quillfeather Tavern",
+  "fictional": true,
+  "menu_scope": "every food section of the dinner menu",
+  "captures": [
+    {
+      "capture_id": "P1-C1",
+      "url": "https://quillfeather.example/menu/",
+      "kind": "html",
+      "path": "captures/menu.html",
+      "sha256": "4beb36c2e40327b4edb2dc5bcb8acdabb87b8399ee4461bb4149b6e096f0f005",
+      "retrieved_at": "2026-11-25",
+      "role": "menu"
+    }
+  ]
+}
